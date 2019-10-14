@@ -102,16 +102,7 @@ There are 3 levels in social links.  For specificity be sure that the `ul` paren
 ```  
   1. Set the `li` to display with `inline-block` and provided a width, center text alignment and add color and border radius.  Use the `:hover` pseudoselector to color the background of `li` differently when user hovers.
   ```
-  .social-links li {
-    display: inline-block;
-    width: 5rem;
-    background-color: lightblue;
-    border-radius:10px;
-    text-align: center;
-  }
-  .social-links li:hover {
-    background: gray;
-  }
+  
 ```
   2. Set up the color and hover changes for the anchor tag.
   ```

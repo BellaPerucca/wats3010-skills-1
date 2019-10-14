@@ -1,0 +1,23 @@
+nav ul {
+    background-color: lightgray;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*use overflow hidden to clear float*/
+    overflow: hidden;
+  }
+   
+nav li {
+      float: left;
+}
+
+nav li a {
+    display: block;
+    padding: 10px;
+    color: black;
+    background-color: #dddddd;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: aqua;
+  }
